@@ -20,7 +20,7 @@ $(function(){
         if ((el.val().length==5)&& (is_int(el.val()))) {
             // Make AJAX call
             $.ajax({
-                url: "http://zip.elevenbasetwo.com",
+                url: "http://zip.getziptastic.com",
                 cache: false,
                 dataType: "json",
                 type: "GET",
